@@ -1,0 +1,8 @@
+using system;
+
+clas Hello {
+
+  static void(main) {
+  Console.WriteLine("Hello World");
+}
+}
