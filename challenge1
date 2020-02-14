@@ -1,0 +1,18 @@
+// challenge that states name and age, awaits user input , then print question, and then again await user input
+
+using System;
+
+namespace FirstConsoleProject
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			Console.WriteLine("name is LF and age is young");
+			Console.ReadKey();
+			Console.WriteLine("Whats your fav colors?");
+			Console.ReadKey();
+		}
+	}
+
+}
