@@ -1,0 +1,29 @@
+// write a program that divides two numbers and responds to users input 
+
+using System;
+
+namespace FirstConsoleProject
+{
+	class mainClass
+	{
+		public static void Main (string[] args)
+		{
+			start:
+			int num01;
+			int num02;
+
+			Console.Write ("Enter a number to be divided: ");
+			num01 = ConvertToInt32 (Console.ReadLine ());
+			Console.Write ("Enter a number to divide by: ");
+			num02 = Convert.ToInt32 (Console.ReadLine ());
+
+			Console.WriteLine (num01 + " divided by " + num02 + " is equal to " + num01/num02)
+
+			// wait for the user to press a key. then make empty space and start over
+
+			Console.ReadKey ();
+			Console.WriteLine ();
+			goto Start; // jumps to start
+		}
+	}
+}
