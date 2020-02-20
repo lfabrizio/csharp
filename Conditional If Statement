@@ -1,0 +1,23 @@
+// Are you old enough to enter?
+
+using System;
+
+namespace FirstConsoleProject
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			Console.WriteLine("How old are you?");
+			int age = Convert.ToInt32 (Console.ReadLine());
+			if (age < 18){
+				Console.WriteLine("too Young");
+			} else if (age == 18) {
+				Console.WriteLine("made it");
+			} else {
+			Console.WriteLine("You're allowed");
+			}
+
+		}
+	}
+}
